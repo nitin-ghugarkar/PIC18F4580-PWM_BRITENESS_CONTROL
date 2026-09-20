@@ -48,7 +48,6 @@ The changing duty cycle can be observed on the PWM output at RC2/CCP1.
 
 The PIC18F4580 PWM module uses a 10-bit duty-cycle value:
 
-c
 CCPR1L = duty >> 2;
 CCP1CONbits.DC1B = duty & 0x03;
 
